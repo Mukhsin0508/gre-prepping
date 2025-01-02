@@ -1,5 +1,3 @@
-# are-prepping
-
 # GRE Test Preparation Strategy Guide
 
 This repository contains detailed visual guides for understanding the GRE test structure and optimal preparation strategy based on Return on Investment (ROI) analysis.
