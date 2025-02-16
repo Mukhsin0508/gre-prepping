@@ -11,41 +11,34 @@ This repository contains detailed visual guides for understanding the GRE test s
 
 ```mermaid
 graph TD
-    A[GRE Test<br>Total Time: ~3h 45m<br>Adaptive Testing] --> B[Analytical Writing<br>Score: 0-6 points<br>30 min per task]
-    A --> C[Verbal Reasoning<br>Score: 130-170 points<br>Total: 60 minutes]
-    A --> D[Quantitative Reasoning<br>Score: 130-170 points<br>Total: 70 minutes]
-    A --> E[Unscored/Research<br>Variable Section]
+    A[New GRE Test Format<br>Total Time: 1h 58m] --> B[Analytical Writing<br>Score: 0-6 points<br>30 minutes]
+    A --> C[Verbal Reasoning<br>Score: 130-170 points<br>Total: 41 minutes]
+    A --> D[Quantitative Reasoning<br>Score: 130-170 points<br>Total: 47 minutes]
 
-    B --> F[Issue Task<br>30 minutes<br>Write opinion on issue]
-    B --> G[Argument Task<br>30 minutes<br>Evaluate given argument]
+    B --> F[Issue Task Only<br>30 minutes<br>One Essay]
 
-    C --> H[Verbal Section 1<br>20 Questions, 30 mins]
-    C --> I[Verbal Section 2<br>20 Questions, 30 mins]
+    C --> H[Verbal Section 1<br>12 Questions, 18 mins]
+    C --> I[Verbal Section 2<br>15 Questions, 23 mins]
     
     H & I --> V1[Question Types]
-    V1 --> V2[Reading Comprehension<br>About 10 questions]
-    V1 --> V3[Text Completion<br>About 6 questions]
-    V1 --> V4[Sentence Equivalence<br>About 4 questions]
+    V1 --> V2[Reading Comprehension]
+    V1 --> V3[Text Completion]
+    V1 --> V4[Sentence Equivalence]
 
-    D --> J[Quant Section 1<br>20 Questions, 35 mins]
-    D --> K[Quant Section 2<br>20 Questions, 35 mins]
+    D --> J[Quant Section 1<br>12 Questions, 21 mins]
+    D --> K[Quant Section 2<br>15 Questions, 26 mins]
     
     J & K --> Q1[Question Types]
-    Q1 --> Q2[Quantitative Comparison<br>About 7-8 questions]
-    Q1 --> Q3[Problem Solving<br>About 12-13 questions]
-    Q1 --> Q4[Data Interpretation<br>Usually 3 questions]
-
-    E --> L[Unscored Section<br>30-35 minutes<br>Not counted in final score]
-    E --> M[Research Section<br>Time Varies<br>Optional, helps ETS research]
+    Q1 --> Q2[Quantitative Comparison]
+    Q1 --> Q3[Problem Solving]
+    Q1 --> Q4[Data Analysis]
 
     classDef default fill:#fff,stroke:#333,stroke-width:1px
     classDef main fill:#e6f3ff,stroke:#333,stroke-width:2px
     classDef section fill:#f5f5f5,stroke:#333,stroke-width:1px
-    classDef unscored fill:#f9f9f9,stroke:#333,stroke-width:1px
 
     class A main
     class B,C,D section
-    class E,L,M unscored
 ```
 
 The first diagram provides a comprehensive breakdown of the GRE test structure, including:
